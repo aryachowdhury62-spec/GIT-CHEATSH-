@@ -1,3 +1,3 @@
-git init                                                 #Initialize a new Git repository
-git clone <repo-url>                                     #Clone (download) a repository
-git clone <repo-url> <dir>                               #Clone into a specific directory
+git init                                                 # Initialize a new Git repository
+git clone <repo-url>                                     # Clone (download) a repository
+git clone <repo-url> <dir>                               # Clone into a specific directory
