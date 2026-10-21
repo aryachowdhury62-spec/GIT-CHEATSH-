@@ -1,0 +1,10 @@
+git remote -v                                         # List remotes
+git remote add origin <url>                           # Add a new remote
+git remote remove <name>                              # Remove a remote
+git fetch <remote>                                    # Fetch changes (no merge)
+git pull                                              # Fetch + merge
+git pull --rebase                                     # Fetch + rebase
+git push <remote> <branch>                            # Push branch to remote
+git push -u origin <branch>                           # Push & set upstream
+git push --tags                                       # Push all tags
+git push --force                                      # Force push (use with caution)
