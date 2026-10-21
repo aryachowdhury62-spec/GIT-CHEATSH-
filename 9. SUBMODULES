@@ -1,0 +1,5 @@
+git submodule add <url> <path>                                         # Add a submodule
+git submodule init                                                     # Initialize submodules
+git submodule update                                                   # Update submodules
+git submodule update --init --recursive                                # Init & update recursively
+git submodule foreach git pull origin main                             # Pull in all submodules
