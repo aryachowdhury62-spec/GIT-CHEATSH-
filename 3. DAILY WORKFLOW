@@ -1,10 +1,10 @@
-git status                                  #Show working tree status
-git add <file>                              #Stage a specific file
-git add                                     #Stage all changes
-git commit -m "message"                     #Commit staged changes
-git commit -am "message"                    #Stage all & commit
-git log                                     #Show commit history
-git log --oneline --graph--all              #Compact commit history graph
-git diff                                    #Show unstaged changes
-git diff --staged                           #Show staged changes
-git show <commit                            #Show details of a commit
+git status                                  # Show working tree status
+git add <file>                              # Stage a specific file
+git add                                     # Stage all changes
+git commit -m "message"                     # Commit staged changes
+git commit -am "message"                    # Stage all & commit
+git log                                     # Show commit history
+git log --oneline --graph--all              # Compact commit history graph
+git diff                                    # Show unstaged changes
+git diff --staged                           # Show staged changes
+git show <commit                            # Show details of a commit
