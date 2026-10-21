@@ -1,0 +1,10 @@
+git checkout <file>                                   # Discard changes in file
+git reset <file>                                      # Unstage a file
+git reset --soft <commit>                             # Move HEAD (keep changes)
+git reset --mixed <commit>                            # Move HEAD (unstage changes)
+git reset --hard <commit>                             # Move HEAD (discard changes)
+git revert <commit>                                   # Revert a commit (safe)
+git revert HEAD                                       # Revert the last commit
+git commit --amend                                    # Amend last commit
+git rebase <branch>                                   # Rebase current branch
+git rebase -i HEAD~<n>                                # Interactive rebase (last n commits)
