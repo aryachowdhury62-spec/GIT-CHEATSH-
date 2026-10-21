@@ -1,0 +1,6 @@
+git config --global user.name "Your Name"                       #Set global usernam
+git config --global user.email "you@example.com"                #Set global email
+git config --global core.editor code                            #Set default editor
+git config --list                                               #List all config
+git config --global --list                                      #List global config
+git config --local --list                                       #List local config
