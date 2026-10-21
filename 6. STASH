@@ -1,0 +1,8 @@
+git stash                                                # Stash local changes
+git stash push -m "message"                              # Stash with a message
+git stash list                                           # List stashes
+git stash show                                           # Show stash changes
+git stash pop                                            # Apply & remove latest stash
+git stash apply                                          # Apply latest stash (keep it)
+git stash drop                                           # Remove latest stash
+git stash clear                                          # Remove all stashes.
