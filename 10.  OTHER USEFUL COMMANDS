@@ -1,0 +1,5 @@
+git help <command>                                 # Get help for a command
+git version                                        # Show Git version
+git config --list                                  # Show all configuration
+git remote -v                                      # List remotes
+git log --graph --oneline --all                    # View compact history
