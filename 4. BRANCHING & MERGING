@@ -1,0 +1,9 @@
+git branch                                      # List branches
+git branch -r                                   # List remote branches
+git branch -a                                   # List all branches
+git branch <branch-name>                        # Create a new branch
+git checkout <branch-name>                      # Switch to a branch
+git checkout -b <branch-name>                   # Create & switch to a branch
+git merge <branch-name>                         # Merge branch into current
+git branch -d <branch>                          # Delete a branch (safe)
+git branch -D <branch>                          # Force delete a branch
