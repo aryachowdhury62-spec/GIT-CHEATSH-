@@ -1,0 +1,28 @@
+* Forward Flow
+
+# Working Directory  --->  git add     --->  Staging Area
+# Staging Area       --->  git commit  --->  Local Repository
+# Local Repository   --->  git push    --->  Remote Repository
+
+
+
+
+* Reverse Flow
+
+# Staging Area       --->  git restore --->  Working Directory
+# Local Repository   --->  git reset   --->  Working Directory / Staging Area
+# Remote Repository  --->  git pull    --->  Local Repository & Working Directory
+
+
++---------------------+           git add            +------------------+
+|  Working Directory  |  ------------------------->  |   Staging Area   |
++---------------------+                              +------------------+
+          ^        ^                                          |
+          |        |                 git commit               |
+git restore        +------------------------------------------+
+          |                                                   |
+          |                          git push                 v
++---------------------+  ------------------------->  +------------------+
+|  Local Repository   |                              | Remote Repository|
++---------------------+  <-------------------------  +------------------+
+                                     git pull
